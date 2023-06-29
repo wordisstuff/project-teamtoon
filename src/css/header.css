@@ -1,5 +1,21 @@
-.nav {
+.container {
+    min-width: 320px;
+    width: 100%;
     max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.icon-logo {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    fill: var(--headerGreen);
+
 }
 
 .logo {
@@ -7,16 +23,23 @@
     text-align: center;
     font-size: 14px;
     font-family: DM Sans, sans-serif;
-    font-style: normal;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 1.3;
     letter-spacing: -0.56px;
     text-transform: uppercase;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
+
+.borger-btn {
+    border: none;
+    background-color: transparent;
+    fill: var(--headerGreen);
+    padding: 0;
+}
+
 
 .burger-box {
     width: 24px;
     height: 24px;
-    background-color: #000000;
-    border-radius: 5%;
 }
