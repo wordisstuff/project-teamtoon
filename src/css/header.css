@@ -1,21 +1,22 @@
-.header {
-  padding: 20px 0;
+.nav {
+    max-width: 375px;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.logo {
+    color: #141414;
+    text-align: center;
+    font-size: 14px;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.burger-box {
+    width: 24px;
+    height: 24px;
+    background-color: #000000;
+    border-radius: 5%;
 }
