@@ -1,10 +1,30 @@
 :root {
     --black: #141414;
     --green: #A1C487;
+    --headerGreen: #77AC63;
     --opacityGreen: #EAF7E5;
     --orange: #FC8A11;
     --opacityOrange: #FAF3E7;
     --white: #F3F3F3;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
