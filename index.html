@@ -1,67 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/project-teamtoon/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Veggie Boost</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
-    
-    <script type="module" crossorigin src="/project-teamtoon/assets/index-85f0eb5b.js"></script>
-    <link rel="stylesheet" href="/project-teamtoon/assets/index-0a6b3c6e.css">
-  </head>
 
-  <body>
-    <!-- HEADER -->
-    <header class="header">
-  <nav class="nav flex container">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/project-teamtoon/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veggie Boost</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+  
+  <script type="module" crossorigin src="/project-teamtoon/assets/index-e1ad6849.js"></script>
+  <link rel="stylesheet" href="/project-teamtoon/assets/index-0f0cba26.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <!-- Mobile menu in svg -->
+<header class="header container">
+  <nav class="nav flex ">
     <div class="logo-box">
       <a href="../index.html" class="logo flex">
         <span class="icon-logo">
           <svg class="logo-svg" width="16" height="16">
-            <use href="/project-teamtoon/assets/icons-d1677c40.svg#icon-logo"></use>
+            <use href="/project-teamtoon/assets/icons-5ed316ca.svg#icon-logo"></use>
           </svg>
         </span>veggieboost</a>
     </div>
     <div class="burger-box">
-      <button type="submit" class="borger-btn flex">
+      <button type="submit" class="borger-btn flex js-open-menu js-hide-on ">
         <svg class="burger-svg" width="24" height="24">
-          <use href="/project-teamtoon/assets/icons-d1677c40.svg#icon-gg_menu-left"></use>
+          <use class=" js-btn-hide" href="/project-teamtoon/assets/icons-5ed316ca.svg#icon-gg_menu-left"></use>
+          <use class="js-close-menu js-hide-off js-btn-hide" href="/project-teamtoon/assets/icons-5ed316ca.svg#icon-x"></use>
         </svg>
       </button>
+      <!-- MOBILE MENU -->
+      <div class="mob-menu flex container js-menu-container">
+        <ul class="header-menu flex">
+          <li class="hed-menu-item">How It Works</li>
+          <li class="hed-menu-item">Vegetables</li>
+          <li class="hed-menu-item">Contacts</li>
+        </ul>
+        <button class="btn-cart" type="button">
+          <svg class="cart">
+            <use class="size-cart" href="/project-teamtoon/assets/icons-5ed316ca.svg#icon-shopping-cart"></use>
+          </svg>
+        </button>
+      </div>
     </div>
-
   </nav>
+
 </header>
 
-    <!-- HERO -->
-    
+  <!-- HERO -->
+  
 
-    <!-- How it works -->
-    <section class="section">
+  <!-- How it works -->
+  <section class="section">
   <!-- Верхній блок  dyatskovskiy-->
   <div class="steps-desc-wrap container">
     <div class="top-wrap">
       <h2 class="steps-desc-title">
         To order your vegetable basket, simply follow these easy steps
       </h2>
-      <picture
-        ><source
-          srcset="/project-teamtoon/assets/vegetables-6c25f83c.png 1x, /project-teamtoon/assets/vegetables@2x-6b66ccd0.png 2x"
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="/project-teamtoon/assets/tab-vegetables-ad36a3a2.png 1x, /project-teamtoon/assets/tab-vegetables@2x-7f310d52.png 2x"
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="/project-teamtoon/assets/mob-vegetables-e89cbf79.png 1x, /project-teamtoon/assets/mob-vegetables@2x-3b36de2d.png 2x"
-          media="(max-width: 767px)"
-        />
-        <img src="../img/how-it-works/vegetables.png" alt="Green vegetables" />
+      <picture></picture>
+      <source srcset="/project-teamtoon/assets/vegetables-6c25f83c.png 1x, /project-teamtoon/assets/vegetables@2x-6b66ccd0.png 2x" media="(min-width: 1280px)" />
+      <source srcset="/project-teamtoon/assets/tab-vegetables-ad36a3a2.png 1x, /project-teamtoon/assets/tab-vegetables@2x-7f310d52.png 2x" media="(min-width: 768px)" />
+      <source srcset="/project-teamtoon/assets/mob-vegetables-e89cbf79.png 1x, /project-teamtoon/assets/mob-vegetables@2x-3b36de2d.png 2x" media="(max-width: 767px)" />
+      <img src="../img/how-it-works/vegetables.png" alt="Green vegetables" />
       </picture>
     </div>
 
@@ -78,30 +82,31 @@
       </p>
     </div>
   </div>
-
   <!-- 222222222222 -->
 </section>
 
+  <!-- Vegetables -->
+  
 
-    <!-- Vegetables -->
-    
-
-    <!-- We will call you -->
-    <section>
+  <!-- We will call you -->
+  <!-- <section>
     <h2 class="will-call">Fresh Harvest Box has got you covered</h2>
     <p class="">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-</section>
+</section> -->
 
-    <!-- Footer -->
-    
+  <!-- Footer -->
+  
 
-    <!-- Модальне вікно Your order -->
-    <!-- top-->
+  <!-- Модальне вікно Your order -->
+  <!-- top-->
 <div class="top-modal">
 
 </div>
 <!-- bottom -->
 
-    
-  </body>
+  
+
+  <script src="./js/modal.js"></script>
+</body>
+
 </html>
