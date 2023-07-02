@@ -36,9 +36,8 @@
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: -0.96px;
-    padding-top: 40px;
-    padding-left: 20px;
     margin-bottom: 8px;
+
 
 }
 
@@ -51,7 +50,7 @@
     font-weight: 400;
     line-height: 1.28;
     letter-spacing: -0.28px;
-    padding-left: 20px;
+
 
 
 }
@@ -64,8 +63,9 @@
     font-weight: 500;
     line-height: 18px;
     letter-spacing: -0.56px;
-    padding-left: 20px;
-    margin-bottom: 20px;
+
+
+
 
 
 }
@@ -101,7 +101,8 @@
     border-radius: 10px;
     max-width: 100%;
     width: 335px;
-    height: 443px;
+
+    padding: 40px 20px 20px;
 
 
 
@@ -109,32 +110,16 @@
 
 
 .img-veg {
-
-    margin: 40px 18px 22px;
-
-
+    margin-top: 40px;
+    margin-bottom: 22px;
 
 
-
-
-}
-
-.but-veg {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: #FC8A11;
-    border: transparent;
-    position: relative;
 
 
 
 }
 
-.but-veg:hover {
-    background-color: #A1C487;
 
-}
 
 .button-center-order {
     margin: 0 auto;
@@ -145,35 +130,63 @@
 }
 
 
-
-
-
-
-
-.svg-but-veg {
-    position: absolute;
-    fill: #fff;
-    left: 18px;
-    top: 61px;
+.but-veg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fc8a11;
+    border: none;
+    cursor: pointer;
 }
 
-.Order-veg-but {
+.but-veg:hover {
+    background-color: #A1C487;
 
-    display: block;
-    color: #FFF;
+
+
+}
+
+.but-text {
+    display: inline-block;
+    color: #fff;
     text-align: center;
-    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
-    font-size: 18px;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
     font-family: DM Sans;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
+    line-height: 1.33;
     letter-spacing: -0.72px;
     text-transform: uppercase;
     transform: rotate(-14deg);
 
 
 }
+
+
+
+
+.but-text svg {
+    fill: #ffffff;
+    transform: rotate(14deg);
+    padding-right: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Radish-hide {
     display: none;
@@ -185,31 +198,38 @@
 @media screen and (min-width:768px) {
 
 
+    .but-text {
+        font-size: 14px;
+
+    }
+
+
+
+
+    .but-veg {
+        width: 114px;
+        height: 114px;
+
+    }
+
+
 
     .container-veg {
 
         max-width: 768px;
         margin-bottom: 40px;
 
-
-
-
     }
 
-    .but-veg {
-        width: 114px;
-        height: 114px;
-        border-radius: 50%;
 
-
-
-    }
 
 
     .veg-items {
 
+        padding: 64px 24px 24px;
+
         width: 342px;
-        height: 465px;
+
 
 
 
